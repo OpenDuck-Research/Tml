@@ -30,5 +30,6 @@ modules:
       - type: git
         url: https://github.com/Security-Research-Project/Tml.git
         branch: main
+        disable-git-lfs: true
       - type: file
         path: python3-requirements.json
