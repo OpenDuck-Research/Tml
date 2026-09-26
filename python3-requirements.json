@@ -32,5 +32,3 @@ modules:
         branch: main
       - type: file
         path: python3-requirements.json
-
-
