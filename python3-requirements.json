@@ -1,5 +1,4 @@
 app-id: org.tml.Tml
-
 runtime: org.gnome.Platform
 runtime-version: "50"
 sdk: org.gnome.Sdk
