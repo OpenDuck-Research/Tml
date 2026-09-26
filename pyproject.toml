@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
 dependencies = [
-    "requests>=2.31",
+    "requests>=2.33.0",
     "urllib3>=1.26",
 ]
 
