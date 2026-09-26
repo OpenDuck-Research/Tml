@@ -7,10 +7,10 @@ name = "tml"
 version = "0.1.1"
 description = "Securely download, verify, and install Tor Browser, Mullvad Browser, and LibreWolf"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.14"
 license = { text = "MIT" }
 dependencies = [
-    "requests==2.33.0",
+    "requests==2.34.2",
     "urllib3==2.8.0",
 ]
 
