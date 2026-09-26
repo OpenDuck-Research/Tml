@@ -17,7 +17,7 @@
 
 ```bash
 git clone https://github.com/Security-Research-Project/Tml.git
-cd Tml/packaging/flatpak && flatpak-builder  --install --install-deps-from=flathub \
+cd Tml/packaging/flatpak && flatpak-builder  --user  --install --install-deps-from=flathub \
   build-dir org.tml.Tml.yml
 ```
 
