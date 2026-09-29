@@ -1,4 +1,6 @@
-# Development Guide
+# Development Guide For any new chages see CHANGELOG.md
+
+
 
 Reference documentation for working on Tml. `README.md` (shipped with
 the app) covers what Tml does and how to install it; this document
@@ -39,7 +41,7 @@ Verified properties of the current codebase, not just design intent:
 official Tor Project domain with the standard library's
 `xml.etree.ElementTree`, capped at 200KB by `network.fetch_bytes`'s
 `max_bytes`. Reviewed for XML entity-expansion risk: Python's bundled
-Expat parser (3.9+, this project's floor) has built-in amplification
+Expat parser (3.9+++, this project's floor) has built-in amplification
 limits, and `ElementTree` does not resolve external entities by
 default. No additional XML-hardening dependency was added; the
 practical risk is already low given the endpoint is pinned and
@@ -71,5 +73,8 @@ loophole.
 ## Known limitations
 
 - No install-detection for browsers installed outside Tml (deliberate;
-  see "Design decisions").
+-  see "Design decisions").
+-  Keyserver availability: key refresh depends on keys.openpgp.org. In environments where that service is blocked or unavailable, manual key management may be required.
+- Conservative extraction limits: strict per-file size limits and symlink checks can reject unusually large or uncommon-but-legitimate archives; these limits are configurable.
+- No absolute guarantees: these mitigations substantially reduce common attack vectors but do not eliminate all risk. Follow standard operational security practices (verify sources, use up-to-datedependencies, test upgrades in a controlled environment).
 
