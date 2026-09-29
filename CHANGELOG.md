@@ -34,4 +34,5 @@
 
 ## Tml v.0.1.1 ##
 
-Same thing Now adding flatpak builder Installation simply.
+- Same thing Now adding flatpak builder Installation simply.
+- Updating Faltpak and some changes around it. and Next Version is coming
