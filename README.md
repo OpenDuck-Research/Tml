@@ -1,6 +1,5 @@
 # Tml
 [Tor Browser](https://www.torproject.org), [Mullvad Browser](https://mullvad.net/en/browser), and [LibreWolf](https://librewolf.net).
-
 ## Features
 
 - **GPG Verification**: Every download verified against pinned GPG fingerprints in an isolated keyring
