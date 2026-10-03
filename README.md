@@ -1,15 +1,14 @@
 # Tml
 [Tor Browser](https://www.torproject.org), [Mullvad Browser](https://mullvad.net/en/browser), and [LibreWolf](https://librewolf.net).
 ## Features
-
 - **GPG Verification**: Every download verified against pinned GPG fingerprints in an isolated keyring
+  
 - **Zero-Trust Installation**: Failed verifications are deleted immediately; nothing unverified is installed
 - **Native Integration**: Each browser gets its own app menu entry—no launcher overlay
 - **Profile Preservation**: Browser profiles preserved across reinstalls and updates
 - **Optional AppArmor**: Per-browser security confinement on demand
 - **On-Demand Updates**: Check for updates when you want—never automatic
 - **Only official sources**: No Mirror or third-party mirrors
-
  ![Tml screenshot](/screenshot.png)
 
 ## Quick Start
