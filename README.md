@@ -23,7 +23,6 @@ cd Tml/packaging/flatpak && flatpak-builder  --user  --install --install-deps-fr
 ## Uninstall
 
 ```
-Go to your cd Tml or find it in Files than run
 flatpak remove Tml
 ```
 
