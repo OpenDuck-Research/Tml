@@ -66,7 +66,7 @@ def write_entry(browser):
     path = entry_path(browser)
     with open(path, "w") as f:
         f.write(content)
-    os.chmod(path, 0o644)
+    os.chmod(path, 0o600)
     _refresh_desktop_db()
     log.info("Wrote independent desktop entry for %s (%s) at %s", browser.key, description, path)
     return path
