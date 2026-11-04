@@ -1,5 +1,5 @@
-# Tml
-[Tor Browser](https://www.torproject.org), [Mullvad Browser](https://mullvad.net/en/browser), and [LibreWolf](https://librewolf.net).
+# Tml        [![Dependency Graph](https://github.com/OpenDuck-Research/Tml/actions/workflows/dependabot/update-graph/badge.svg)](https://github.com/OpenDuck-Research/Tml/actions/workflows/dependabot/update-graph)                                                                                                                                                                               [![CodeQL](https://github.com/OpenDuck-Research/Tml/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/OpenDuck-Research/Tml/actions/workflows/github-code-scanning/codeql)
+ [Tor Browser](https://www.torproject.org), [Mullvad Browser](https://mullvad.net/en/browser), and [LibreWolf](https://librewolf.net).
 ## Features
 - **GPG Verification**: Every download verified against pinned GPG fingerprints in an isolated keyring
   
